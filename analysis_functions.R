@@ -11,8 +11,22 @@ get_col_names <- function(){
      col_names[382:423] <- paste(col_names[382:423], "_", 382:423, sep = "")
      col_names[303:344] <- paste(col_names[303:344], "_", 303:344, sep = "")
      
+     #col_names <- clean_col_names(col_names)
+     
      return(col_names)     
 }
+
+
+clean_col_names <- function(col_names){
+      col_names <- gsub("mean", "Mean", col_names)
+     col_names <- gsub("std", "Std", col_names)
+     col_names <- gsub("\\.", "", col_names)
+     
+     return(col_names)
+}
+
+     
+
 
 get_file <- function(prefix, col_names){
      n1 <- paste(f_dir, "test/", prefix, "test.txt", sep = "")
@@ -29,7 +43,9 @@ get_file <- function(prefix, col_names){
 
 get_avg_table <- function (tbl, act_names){
      d <- data.frame(matrix(vector(), 180, dim(tbl)[2]))
-     colnames(d) <- colnames(tbl)
+     e <- clean_col_names(names(tbl))
+     print(e)
+     colnames(d) <- clean_col_names(names(tbl))
      cnt <- 1
      
      for (s in 1:30){
@@ -41,5 +57,7 @@ get_avg_table <- function (tbl, act_names){
                cnt <- cnt + 1  
           }
      }
+     
+     
      return(d)
 }

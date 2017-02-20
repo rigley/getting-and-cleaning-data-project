@@ -38,5 +38,5 @@ result_table <- cbind(subj_nums, act_nums, means, stds)
 
 avg_table <- get_avg_table(result_table, act_names)
 
-
+write.table(avg_table, file = "output.txt", row.names = FALSE)
 
