@@ -43,9 +43,11 @@ get_file <- function(prefix, col_names){
 
 get_avg_table <- function (tbl, act_names){
      d <- data.frame(matrix(vector(), 180, dim(tbl)[2]))
-     e <- clean_col_names(names(tbl))
-     print(e)
-     colnames(d) <- clean_col_names(names(tbl))
+     cleaned <- clean_col_names(names(tbl))
+     cleaned[1] <- "subjectNumber"
+     cleaned[2] <- "activityName"
+     colnames(d) <- cleaned
+          
      cnt <- 1
      
      for (s in 1:30){
