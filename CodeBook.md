@@ -20,50 +20,50 @@ The original dataset describes the experiment as:
 
 Note: the following variables are normalized to [-1, 1]
 
-*tBodyAccMeanX - normalized average acceleration of the body in the X direction
-*tBodyAccMeanY - normalized average acceleration of the body in the Y direction 
-*tBodyAccMeanZ - normalized average acceleration of the body in the Z direction 
-*tGravityAccMeanX - normalized average acceleration of the gravity in the X direction
-*tGravityAccMeanY - normlized average acceleration of the gravity in the Y direction
-*tGravityAccMeanZ - normalized average acceleration of the gravity in the Z direction
-*tBodyAccJerkMeanX - normalized average acceleration of jerk in the X direction
-*tBodyAccJerkMeanY - normalized average acceleration of jerk in the Y direction
-*tBodyAccJerkMeanZ - normalized average acceleration of jerk in the Z direction
-*tBodyGyroMeanX - normalized average angular velocity of body in X direction as measured by gyroscope
-*tBodyGyroMeanY - normalized average angular velocity of body in Y direction as measured by gyroscope
-*tBodyGyroMeanZ - normalized average angular velocity of body in Z direction as measured by gyroscope
-*tBodyGyroJerkMeanX - normalized average angular velocity of jerk in X direction as measured by gyroscope
-*tBodyGyroJerkMeanY - normalized average angular velocity of jerk in Y direction as measured by gyroscope
-*tBodyGyroJerkMeanZ - normalized average angular velocity of jerk in Z direction as measured by gyroscope
-*tBodyAccMagMean - average magnitude of body acceleration
-*tGravityAccMagMean - average magnitude of gravity acceleration
-*tBodyAccJerkMagMean - average magnitude of jerk acceleration
-*tBodyGyroMagMean - average angular velocity of body magnitude
-*tBodyGyroJerkMagMean - average angular velocity of jerk magnitude
-*fBodyAccMeanX - average Fast Fourier Transform (FFT) of tBodyAccMeanX
-*fBodyAccMeanY - average Fast Fourier Transform (FFT) of tBodyAccMeanY
-*fBodyAccMeanZ - average Fast Fourier Transform (FFT) of tBodyAccMeanZ
-*fBodyAccMeanFreqX - average frequency of fBodyAccMeanX
-*fBodyAccMeanFreqY - average frequency of fBodyAccMeanY
-*fBodyAccMeanFreqZ - average frequency of fBodyAccMeanZ
-*fBodyAccJerkMeanX - average Fast Fourier Transform (FFT) of tBodyAccJerkMeanX
-*fBodyAccJerkMeanY - average Fast Fourier Transform (FFT) of tBodyAccJerkMeanY
-*fBodyAccJerkMeanZ - average Fast Fourier Transform (FFT) of tBodyAccJerkMeanZ
-*fBodyAccJerkMeanFreqX - average frequency of fBodyAccJerkMeanX
-*fBodyAccJerkMeanFreqY - average frequency of fBodyAccJerkMeanY
-*fBodyAccJerkMeanFreqZ - average frequency of fBodyAccJerkMeanZ
-*fBodyGyroMeanX - average Fast Fourier Transform (FFT) of tBodyGyroMeanX
-*fBodyGyroMeanY - average Fast Fourier Transform (FFT) of tBodyGyroMeanY
-*fBodyGyroMeanZ - average Fast Fourier Transform (FFT) of tBodyGyroMeanZ
-*fBodyGyroMeanFreqX - average frequency of fBodyGyroMeanX
-*fBodyGyroMeanFreqY - average frequency of fBodyGyroMeanY
-*fBodyGyroMeanFreqZ - average frequency of fBodyGyroMeanZ
-fBodyAccMagMean
-fBodyAccMagMeanFreq
-fBodyBodyAccJerkMagMean
-fBodyBodyAccJerkMagMeanFreq
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagMeanFreq
+* tBodyAccMeanX - normalized average acceleration of the body in the X direction
+* tBodyAccMeanY - normalized average acceleration of the body in the Y direction 
+* tBodyAccMeanZ - normalized average acceleration of the body in the Z direction 
+* tGravityAccMeanX - normalized average acceleration of the gravity in the X direction
+* tGravityAccMeanY - normlized average acceleration of the gravity in the Y direction
+* tGravityAccMeanZ - normalized average acceleration of the gravity in the Z direction
+* tBodyAccJerkMeanX - normalized average acceleration of jerk in the X direction
+* tBodyAccJerkMeanY - normalized average acceleration of jerk in the Y direction
+* tBodyAccJerkMeanZ - normalized average acceleration of jerk in the Z direction
+* tBodyGyroMeanX - normalized average angular velocity of body in X direction as measured by gyroscope
+* tBodyGyroMeanY - normalized average angular velocity of body in Y direction as measured by gyroscope
+* tBodyGyroMeanZ - normalized average angular velocity of body in Z direction as measured by gyroscope
+* tBodyGyroJerkMeanX - normalized average angular velocity of jerk in X direction as measured by gyroscope
+* tBodyGyroJerkMeanY - normalized average angular velocity of jerk in Y direction as measured by gyroscope
+* tBodyGyroJerkMeanZ - normalized average angular velocity of jerk in Z direction as measured by gyroscope
+* tBodyAccMagMean - average magnitude of body acceleration
+* tGravityAccMagMean - average magnitude of gravity acceleration
+* tBodyAccJerkMagMean - average magnitude of jerk acceleration
+* tBodyGyroMagMean - average angular velocity of body magnitude
+* tBodyGyroJerkMagMean - average angular velocity of jerk magnitude
+* fBodyAccMeanX - average Fast Fourier Transform (FFT) of tBodyAccMeanX
+* fBodyAccMeanY - average Fast Fourier Transform (FFT) of tBodyAccMeanY
+* fBodyAccMeanZ - average Fast Fourier Transform (FFT) of tBodyAccMeanZ
+* fBodyAccMeanFreqX - average frequency of fBodyAccMeanX
+* fBodyAccMeanFreqY - average frequency of fBodyAccMeanY
+* fBodyAccMeanFreqZ - average frequency of fBodyAccMeanZ
+* fBodyAccJerkMeanX - average Fast Fourier Transform (FFT) of tBodyAccJerkMeanX
+* fBodyAccJerkMeanY - average Fast Fourier Transform (FFT) of tBodyAccJerkMeanY
+* fBodyAccJerkMeanZ - average Fast Fourier Transform (FFT) of tBodyAccJerkMeanZ
+* fBodyAccJerkMeanFreqX - average frequency of fBodyAccJerkMeanX
+* fBodyAccJerkMeanFreqY - average frequency of fBodyAccJerkMeanY
+* fBodyAccJerkMeanFreqZ - average frequency of fBodyAccJerkMeanZ
+* fBodyGyroMeanX - average Fast Fourier Transform (FFT) of tBodyGyroMeanX
+* fBodyGyroMeanY - average Fast Fourier Transform (FFT) of tBodyGyroMeanY
+* fBodyGyroMeanZ - average Fast Fourier Transform (FFT) of tBodyGyroMeanZ
+* fBodyGyroMeanFreqX - average frequency of fBodyGyroMeanX
+* fBodyGyroMeanFreqY - average frequency of fBodyGyroMeanY
+* fBodyGyroMeanFreqZ - average frequency of fBodyGyroMeanZ
+* fBodyAccMagMean - average Fast Fourier Transform (FFT) of tBodyAccMagMean
+* fBodyAccMagMeanFreq - average frequency of fBodyAccMagMean
+* fBodyBodyAccJerkMagMean - average Fast Fourier Transform (FFT) of tBodyAccJerkMagMean
+* fBodyBodyAccJerkMagMeanFreq - average frequency of fBodyAccJerkMagMean
+* fBodyBodyGyroMagMean -  average Fast Fourier Transform (FFT) of tBodyBodyGyroMag
+* fBodyBodyGyroMagMeanFreq - average frequency of fBodyBodyGyroMagMean
 fBodyBodyGyroJerkMagMean
 fBodyBodyGyroJerkMagMeanFreq
 angletBodyAccMeangravity
