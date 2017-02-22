@@ -44,3 +44,6 @@ write.table(colnames(avg_table), file = "col_names", row.names = FALSE)
 
 return(avg_table)
 }
+
+run_analysis()
+
