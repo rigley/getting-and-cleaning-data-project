@@ -16,7 +16,7 @@ The original dataset describes the experiment as:
   *The column names were adjusted to be in camel case
 ###Variable descriptions
 * subjectNumber - the subject ID represented by an integer in the range 1 - 30
-* activityName - name of the activity perfromed
+* activityName - name of the activity performed
 
 Note: the following variables are normalized to [-1, 1]
 
