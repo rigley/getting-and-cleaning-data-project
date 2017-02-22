@@ -64,45 +64,45 @@ Note: the following variables are normalized to [-1, 1]
 * fBodyBodyAccJerkMagMeanFreq - average frequency of fBodyAccJerkMagMean
 * fBodyBodyGyroMagMean -  average Fast Fourier Transform (FFT) of tBodyBodyGyroMag
 * fBodyBodyGyroMagMeanFreq - average frequency of fBodyBodyGyroMagMean
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagMeanFreq
-angletBodyAccMeangravity
-angletBodyAccJerkMeangravityMean
-angletBodyGyroMeangravityMean
-angletBodyGyroJerkMeangravityMean
-angleXgravityMean
-angleYgravityMean
-angleZgravityMean
-tBodyAccStdX
-tBodyAccStdY
-tBodyAccStdZ
-tGravityAccStdX
-tGravityAccStdY
-tGravityAccStdZ
-tBodyAccJerkStdX
-tBodyAccJerkStdY
-tBodyAccJerkStdZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccMagStd
-tGravityAccMagStd
-tBodyAccJerkMagStd
-tBodyGyroMagStd
-tBodyGyroJerkMagStd
-fBodyAccStdX
-fBodyAccStdY
-fBodyAccStdZ
-fBodyAccJerkStdX
-fBodyAccJerkStdY
-fBodyAccJerkStdZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccMagStd
-fBodyBodyAccJerkMagStd
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagStd
+* fBodyBodyGyroJerkMagMean -  average Fast Fourier Transform (FFT) of tBodyBodyGyroJerkMag
+* fBodyBodyGyroJerkMagMeanFreq - average frequency of fBodyBodyGyroJerkMagMean
+* angletBodyAccMeangravity - avearge angle between body and gravity accleration vectors
+* angletBodyAccJerkMeangravityMean - average angle between jerk and gravity acceleration vectors
+* angletBodyGyroMeangravityMean - average angle between body and gravity angular velocity vectors
+* angletBodyGyroJerkMeangravityMean - average angle between jerk and gravity angular velocity vectors
+* angleXgravityMean - average X gravity angle
+* angleYgravityMean - average Y gravity angle
+* angleZgravityMean - average Z gravity angle
+* tBodyAccStdX - standard deviation of body acceleration in X direction
+* tBodyAccStdY - standard deviation of body acceleration in Y direction
+* tBodyAccStdZ - standard deviation of body acceleration in Z direction
+* tGravityAccStdX - standard deviation of gravity accleration in X direction
+* tGravityAccStdY - standard deviation of gravity accleration in Y direction
+* tGravityAccStdZ - standard deviation of gravity accleration in Z direction
+* tBodyAccJerkStdX - standard deviation of jerk acceleration in X direction
+* tBodyAccJerkStdY - standard deviation of jerk acceleration in Y direction
+* tBodyAccJerkStdZ - standard deviation of jerk acceleration in Z direction
+* tBodyGyroStdX - standard deviation of angular velocity of body in X direction
+* tBodyGyroStdY - standard deviation of angular velocity of body in Y direction
+* tBodyGyroStdZ - standard deviation of angular velocity of body in Z direction
+* tBodyGyroJerkStdX - standard deviation of angular velocity of jerk in X direction
+* tBodyGyroJerkStdY - standard deviation of angular velocity of jerk in Y direction
+* tBodyGyroJerkStdZ - standard deviation of angular velocity of jerk in Z direction
+* tBodyAccMagStd - standard deviation of magnitude of body acceleration
+* tGravityAccMagStd - standard deviation of magnitude of gravity acceleration
+* tBodyAccJerkMagStd - standard deviation of magnitude of jerk acceleration
+* tBodyGyroMagStd - standard deviation of body angular velocity
+* tBodyGyroJerkMagStd - standard deviation of jerk angular velocity
+* fBodyAccStdX - standard deviation of Fast Fourier Transform (FFT) of tBodyAccMeanX
+* fBodyAccStdY - standard deviation of Fast Fourier Transform (FFT) of tBodyAccMeanY
+* fBodyAccStdZ - standard deviation of Fast Fourier Transform (FFT) of tBodyAccMeanZ
+* fBodyAccJerkStdX - standard deviation of Fast Fourier Transform (FFT) of tBodyAccJerkMeanX
+* fBodyAccJerkStdY - standard deviation of Fast Fourier Transform (FFT) of tBodyAccJerkMeanY
+* fBodyAccJerkStdZ - standard deviation of Fast Fourier Transform (FFT) of tBodyAccJerkMeanZ
+* fBodyGyroStdX - standard deviation of Fast Fourier Transform (FFT) of tBodyGyroMeanX
+* fBodyGyroStdY - standard deviation of Fast Fourier Transform (FFT) of tBodyGyroMeanY
+* fBodyGyroStdZ - standard deviation of Fast Fourier Transform (FFT) of tBodyGyroMeanZ
+* fBodyAccMagStd - standard devation of Fast Fourir Transform (FFT) of body acceleration magnitude
+* fBodyBodyAccJerkMagStd - standard devation of Fast Fourir Transform (FFT) of jerk acceleration magnitude
+* fBodyBodyGyroMagStd - standard devation of Fast Fourir Transform (FFT) of body angular velocity magnitude
+* fBodyBodyGyroJerkMagStd - standard devation of Fast Fourir Transform (FFT) of jerk angular velocity magnitude
