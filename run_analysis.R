@@ -1,4 +1,5 @@
-library("dplyr")
+run_analysis <- function(){
+     library("dplyr")
 source("analysis_functions.R")
 
 
@@ -41,3 +42,5 @@ avg_table <- get_avg_table(result_table, act_names)
 write.table(avg_table, file = "output.txt", row.names = FALSE)
 write.table(colnames(avg_table), file = "col_names", row.names = FALSE)
 
+return(avg_table)
+}
