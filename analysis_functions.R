@@ -52,7 +52,7 @@ get_avg_table <- function (tbl, act_names){
      for (s in 1:30){
           for(a in 1:dim(act_names)[1]){
                d[cnt, 1] <- s
-               d[cnt, 2] <- paste("", act_names[a, 2])
+               d[cnt, 2] <- paste("", act_names[a, 2], sep = "")
                temp <- tbl %>% filter(Subject_Number == s, activity_name == act_names[a, 2])
                d[cnt, -(1:2)] <- colMeans(temp[-(1:2)])
                cnt <- cnt + 1  
